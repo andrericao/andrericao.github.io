@@ -4,6 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
+.projetos {
+  text-decoration: none;
+  background-color: $corpadraoamarela;
+ 
+  a {
+    font-family: 'Bebas Neue', sans-serif;
+    color: $corpadraoescura;
+    font-size: bold;  
+  }
+  
+}
+
 a {
   text-decoration: none;
 }
@@ -95,7 +107,7 @@ main {
   width: 100%;
   height: 90vh;
   border-bottom: 2px solid $corpadraoamarela;
-  background-image: url(/Roadmap.wiki/home/img/bg-roadmap.png);
+  background-image: url(/andrericao.github.io/Roadmap.wiki2/Roadmap.wiki/home/img/bg-roadmap.png);
   background-repeat: no-repeat;
   background-size: cover;
 
