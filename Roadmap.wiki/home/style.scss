@@ -195,7 +195,7 @@ main {
 
   @media (max-width: 768px) {
     width: 95%;
-    margin: 5px 0px;
+    margin: 5px 0 5px 20px;
   }
 }
 
@@ -225,7 +225,7 @@ main {
 }
 
 .image {
-  height: 200px;
+  height: 250px;
   align-items: center;
 }
 
@@ -471,6 +471,11 @@ h1 {
   border: 2px solid $corpadraoamarela;
   color: $corpadraobranca;
   border-radius: 15px;
+
+  @media (max-width: 768px) {
+    width: 95%;
+    margin: 5px 0 5px 20px;
+  }
 
   h1 {
     font-family: 'Bebas Neue', sans-serif;
