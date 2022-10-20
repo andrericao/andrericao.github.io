@@ -109,6 +109,7 @@ main {
 
   .paragrafo {
   padding: 50px 150px;
+  text-align: center;
 
   @media (max-width: 768px) {
     padding: 30px 75px;
@@ -195,7 +196,6 @@ main {
 
   @media (max-width: 768px) {
     width: 95%;
-    margin: 5px 0 5px 20px;
   }
 }
 
