@@ -267,7 +267,6 @@ main {
 
 .image {
   height: 250px;
-  align-items: center;
 }
 
 .area {
@@ -411,6 +410,21 @@ h1 {
 }
 .paragrafo a {
   font-size: 14px;
+}
+
+.paragrafo2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 7vh;
+}
+.paragrafo2 a {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 14px;
+  color: #202020;
+}
+.paragrafo2 a:hover {
+  color: #ffff7a;
 }
 
 .titulo-paragrafo {

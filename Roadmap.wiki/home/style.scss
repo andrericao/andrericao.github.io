@@ -380,6 +380,22 @@ h1 {
   }
 }
 
+
+.paragrafo2 {
+  font-family: 'Nanum Gothic', sans-serif;
+  text-align: center;
+  margin-bottom: 7vh;
+
+  a {
+    font-size: 14px;
+    color: $corpadraoescura;
+    &:hover {
+      color: $corpadraoamarela;
+    }
+  }
+}
+
+
 .titulo-paragrafo {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 36px;
