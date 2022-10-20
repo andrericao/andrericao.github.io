@@ -499,7 +499,7 @@ h1 {
 @media (max-width: 768px) {
   .card-cubo {
     width: 95%;
-    margin: 5px 0 5px 20px;
+    margin: 5px 0 5px 0px;
   }
 }
 .card-cubo h1 {
@@ -554,10 +554,22 @@ h1 {
   width: 150px;
   padding-top: 75px;
 }
+.linha-tempo .arrow {
+  height: 75px;
+  margin: 3vh 0;
+}
 .linha-tempo .interticio {
   background-color: #ffff7a;
   border-radius: 7px;
   margin-top: 10px;
+}
+
+.interticio-mobile {
+  background-color: #ffff7a;
+  border-radius: 7px;
+  margin-top: 10px;
+  width: 65px;
+  margin: 0 auto;
 }
 
 .ambiente .text-ambiente {
@@ -569,6 +581,21 @@ h1 {
 .ambiente .patente {
   font-family: "Bebas Neue", sans-serif;
   font-size: 22px;
+}
+
+hr {
+  color: #202020;
+  margin: 0 10vw;
+}
+
+.display-mobile {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .display-mobile {
+    display: block;
+    text-align: start;
+  }
 }
 
 .recomendacoes a {

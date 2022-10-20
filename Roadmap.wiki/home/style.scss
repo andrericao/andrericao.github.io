@@ -474,7 +474,7 @@ h1 {
 
   @media (max-width: 768px) {
     width: 95%;
-    margin: 5px 0 5px 20px;
+    margin: 5px 0 5px 0px;
   }
 
   h1 {
@@ -543,11 +543,24 @@ h1 {
     padding-top: 75px;
   }
 
+  .arrow {
+    height: 75px;
+    margin: 3vh 0;
+  }
+
   .interticio {
     background-color: $corpadraoamarela;
     border-radius: 7px;
     margin-top: 10px;
   }
+}
+
+.interticio-mobile {
+  background-color: $corpadraoamarela;
+  border-radius: 7px;
+  margin-top: 10px;
+  width: 65px;  
+  margin: 0 auto;
 }
 
 .ambiente {
@@ -565,6 +578,20 @@ h1 {
     font-size: 22px;
   }
 
+}
+
+hr {
+  color: $corpadraoescura;
+  margin: 0 10vw;
+}
+
+.display-mobile {
+  display: flex;
+
+  @media (max-width: 768px) {
+    display: block;
+    text-align: start;
+  }
 }
 
 //Dúvidas
