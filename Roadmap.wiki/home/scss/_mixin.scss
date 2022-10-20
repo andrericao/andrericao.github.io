@@ -3,7 +3,6 @@
 @mixin classe-area {
   text-align: center;
   display: block;
-  margin-bottom: 2vh;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 80%;
   text-decoration: none;
@@ -114,7 +113,6 @@
 @mixin comentario-div {
   font-style: italic;
   text-align: center;
-  width: 90%;
   color: $corpadraobranca;
   background-image: linear-gradient(75deg, $corpadraoescura 50%, #565656 70%);
   border-radius: 10px;

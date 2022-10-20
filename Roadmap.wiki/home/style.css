@@ -2,6 +2,25 @@
 /*Estilo para página para cada carreira*/
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+section, header, footer, main {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .projetos {
   text-decoration: none;
   background-color: #ffff7a;
@@ -11,9 +30,6 @@
   font-family: "Bebas Neue", sans-serif;
   color: #202020;
   font-size: bold;
-}
-
-a {
   text-decoration: none;
 }
 
@@ -29,6 +45,7 @@ header {
   z-index: 3;
   background-color: #202020;
   border-bottom: 2px solid #ffff7a;
+  margin-bottom: 2vh;
 }
 
 .nav-custom {
@@ -105,18 +122,25 @@ header {
 main {
   min-height: 100vh;
 }
-main .paragrafo {
+@media (max-width: 768px) {
+  main {
+    min-height: 80vh;
+    margin-bottom: 3vh;
+  }
+}
+
+.paragrafo {
   padding: 50px 150px;
-  text-align: center;
+  text-align: start;
 }
 @media (max-width: 768px) {
-  main .paragrafo {
-    padding: 30px 75px;
+  .paragrafo {
+    padding: 30px 15px;
   }
 }
 @media (max-width: 425px) {
-  main .paragrafo {
-    padding: 20px 25px;
+  .paragrafo {
+    padding: 20px 15px;
   }
 }
 
@@ -202,11 +226,16 @@ main .paragrafo {
   margin-bottom: 4vh;
   position: relative;
 }
+@media (max-width: 768px) {
+  .cursos {
+    margin: auto;
+    padding: 0;
+  }
+}
 
 .classe-area {
   text-align: center;
   display: block;
-  margin-bottom: 2vh;
   font-family: "Bebas Neue", sans-serif;
   font-size: 80%;
   text-decoration: none;
@@ -343,7 +372,7 @@ h1 {
 }
 @media (max-width: 768px) {
   .titulo {
-    padding: 2vh 0;
+    padding: 2vh 1vw;
     font-size: 64px;
   }
 }
@@ -357,7 +386,6 @@ h1 {
 .comentario-div {
   font-style: italic;
   text-align: center;
-  width: 90%;
   color: #f3f3f3;
   background-image: linear-gradient(75deg, #202020 50%, #565656 70%);
   border-radius: 10px;
@@ -402,26 +430,31 @@ h1 {
   padding: 5vh;
 }
 
+footer {
+  height: auto;
+}
+
 .list {
   border-top: 2px solid #ffff7a;
   background-color: #202020;
-  height: 75px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   list-style: none;
-  gap: 3vw;
+  gap: 3vh;
   font-family: "Nanum Gothic", sans-serif;
   color: #f3f3f3;
   font-size: 15px;
+  height: 100px;
+  margin-bottom: 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .list {
+    line-height: 5vh;
     display: block;
-    gap: 5vh;
-    height: 100%;
+    height: auto;
     text-align: center;
   }
 }
@@ -430,8 +463,14 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  gap: 0.5vw;
+  gap: 2vw;
   bottom: 5vh;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .sub-list {
+    gap: 7vw;
+  }
 }
 .sub-list img {
   height: 30px;
@@ -499,7 +538,7 @@ h1 {
 @media (max-width: 768px) {
   .card-cubo {
     width: 95%;
-    margin: 5px 0 5px 0px;
+    margin: 5px 0;
   }
 }
 .card-cubo h1 {
@@ -515,7 +554,12 @@ h1 {
   background-color: #ffff7a;
   color: #202020;
   border-radius: 5px;
-  height: 24px;
+  height: 22px;
+}
+@media (max-width: 768px) {
+  .card-cubo label {
+    width: 100%;
+  }
 }
 
 .link-prova a {
@@ -547,8 +591,8 @@ h1 {
   border: none;
   text-decoration: none;
 }
-.linha-tempo .avatar {
-  height: 60px;
+.linha-tempo .avatar-study {
+  height: 75px;
 }
 .linha-tempo .linedown {
   width: 150px;
@@ -572,11 +616,16 @@ h1 {
   margin: 0 auto;
 }
 
+.avatar {
+  height: 60px;
+}
+
+.avatar-study {
+  height: 80px;
+}
+
 .ambiente .text-ambiente {
   line-height: 50px;
-}
-.ambiente .avatar {
-  height: 60px;
 }
 .ambiente .patente {
   font-family: "Bebas Neue", sans-serif;
@@ -590,6 +639,7 @@ hr {
 
 .display-mobile {
   display: flex;
+  justify-content: space-around;
 }
 @media (max-width: 768px) {
   .display-mobile {
