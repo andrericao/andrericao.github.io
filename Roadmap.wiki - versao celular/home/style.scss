@@ -352,11 +352,15 @@ h1 {
 .comentario-div {
   @include comentario-div;
   margin: auto 100px;
+  width: 90vw;
 
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
+    display: block;
+
     font-size: 10px;
     padding-top: 2vh;
-    margin: 0 15px;
+    margin: 0 auto;
+    
   }
 
   h4 {

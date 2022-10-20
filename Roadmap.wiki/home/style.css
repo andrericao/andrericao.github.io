@@ -391,12 +391,14 @@ h1 {
   border-radius: 10px;
   border: 2px solid #ffff7a;
   margin: auto 100px;
+  width: 90vw;
 }
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .comentario-div {
+    display: block;
     font-size: 10px;
     padding-top: 2vh;
-    margin: 0 15px;
+    margin: 0 auto;
   }
 }
 .comentario-div h4 {
