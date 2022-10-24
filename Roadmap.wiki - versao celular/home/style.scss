@@ -221,13 +221,10 @@ main {
   }
 }
 
+card
+
 .cursos {
   @include curso;
-/*
-  @media (max-width: 768px) {
-    margin: auto;
-    padding: 0;
-  }*/
 }
 
 .classe-area {
@@ -240,6 +237,7 @@ main {
 
 .conteudo {
   background-image: linear-gradient(45deg, $corpadraoescura 30%, #565656 80%);
+  height: 250px;
 
   img:hover{
   transform: scale(1.2);
