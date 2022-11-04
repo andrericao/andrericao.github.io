@@ -20,19 +20,6 @@
   font-family: 'Bebas Neue', sans-serif;
 }
 
-.banner {
-  h1 {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 84px;
-  }
-
-  @media (max-width: 768px) {
-    .banner h1 {
-    font-size: 56px;
-    }
-  }
-}
-
 .image-banner1 {
   position: absolute;
   left: 44vw;
@@ -103,18 +90,12 @@
   text-decoration: none;
 }
 
-.banner {
-  .titulo {
-    padding-top: 30vh;
-  }
-}
-
 .titulo {
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
   font-size: 84px;
 
-  @media (max-width: 768px) {
+  @media(max-width: 768px) {
     font-size: 56px;
   }
 }
@@ -219,6 +200,13 @@
 .subtitulo-cubo {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 24px;
+  text-align: center;
+}
+
+.subtitulo-recomendacao {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 24px;
+  text-align: center;
 }
 
 .card-cubo {

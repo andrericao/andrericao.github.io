@@ -231,6 +231,10 @@
   color: $corpadraobranca;
 }
 
+.subtitulo-recomendacao {
+  color: $corpadraoescura;
+}
+
 .card-cubo {
   background-image: linear-gradient(45deg, $corpadraoescura 40%, #565656 70%, $corpadraoescura 80%);
   border: 2px solid $corpadraoamarela;
@@ -315,10 +319,6 @@ hr {
 .sub-list img {
   height: 30px;  
   flex-wrap: wrap;
-}
-
-.subtitulo-cubo {
-  color: $corpadraobranca;
 }
 
 

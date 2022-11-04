@@ -154,11 +154,11 @@
 }
 
 .titulo {
-  padding-top: 3vh;
+  padding-top: 30vh;
 }
 @media (max-width: 768px) {
   .titulo {
-    padding: 2vh 3vw;
+    padding: 2vh 1vw;
   }
 }
 
